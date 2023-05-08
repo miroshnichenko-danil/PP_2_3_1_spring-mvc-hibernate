@@ -10,16 +10,15 @@
     <thead>
     <th>Name</th>
     <th>Surname</th>
-    <th>email</th>
+    <th>Email</th>
     <th>Age</th>
     </thead>
     <tbody>
-    <tr th:each="user : ${users}">
-        <td th:text=${user.name}></td>
-        <td th:text=${user.surname}></td>
-        <td th:text=${user.email}></td>
-        <td th:text=${user.age}></td>
-
+    <tr th:each = "user : ${usersList}">
+        <td class="align-middle" th:text="${user.name}"></td>
+        <td class="align-middle" th:text="${user.surname}"></td>
+        <td class="align-middle" th:text="${user.email}"></td>
+        <td class="align-middle" th:text="${user.age}"></td>
     </tbody>
 
 
