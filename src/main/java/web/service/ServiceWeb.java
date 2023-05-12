@@ -13,4 +13,5 @@ public interface ServiceWeb {
     void addUser(User user);
 
     void editUser(User user);
+    User getUserById(long id);
 }

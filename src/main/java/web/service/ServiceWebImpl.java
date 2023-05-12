@@ -39,4 +39,9 @@ public class ServiceWebImpl implements ServiceWeb{
     public void editUser(User user) {
         userDAO.editUser(user);
     }
+
+    @Override
+    public User getUserById(long id) {
+        return userDAO.getUserById(id);
+    }
 }
