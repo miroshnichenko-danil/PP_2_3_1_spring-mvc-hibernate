@@ -41,6 +41,7 @@ public class ServiceWebImpl implements ServiceWeb{
     }
 
     @Override
+    @Transactional
     public User getUserById(long id) {
         return userDAO.getUserById(id);
     }
