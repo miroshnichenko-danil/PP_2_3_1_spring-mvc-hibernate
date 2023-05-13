@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3271b7a2-79f4-4e26-969a-9be8b9867ad9" name="Changes" comment="Initial Solution">
+    <list default="true" id="3271b7a2-79f4-4e26-969a-9be8b9867ad9" name="Changes" comment="Added russian language">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/ConfigWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/ConfigWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/ServiceWebImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/ServiceWebImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +178,12 @@
       <workItem from="1683874457223" duration="2135000" />
       <workItem from="1683877400791" duration="4943000" />
       <workItem from="1683891707784" duration="152000" />
-      <workItem from="1683899438972" duration="266000" />
+      <workItem from="1683899438972" duration="899000" />
+      <workItem from="1683969672508" duration="313000" />
+      <workItem from="1683970425614" duration="12000" />
+      <workItem from="1683970800579" duration="2421000" />
+      <workItem from="1683973422568" duration="622000" />
+      <workItem from="1683977756456" duration="465000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1683550139926</created>
@@ -209,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683891742947</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added russian language">
+      <created>1683900365608</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683900365608</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +241,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Changed version of hibernate" />
     <MESSAGE value="Initial Solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Solution" />
+    <MESSAGE value="Added russian language" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added russian language" />
   </component>
 </project>

@@ -10,10 +10,11 @@ import java.util.List;
 
 @Service
 public class ServiceWebImpl implements ServiceWeb{
-    @Autowired
-    private UserDAO userDAO;
+    private final UserDAO userDAO;
 
-    public ServiceWebImpl() {
+    @Autowired
+    public ServiceWebImpl(UserDAO userDAO) {
+        this.userDAO = userDAO;
     }
 
     @Override
