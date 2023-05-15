@@ -1,10 +1,10 @@
-package web.service;
+package web.dao;
 
 import web.model.User;
 
 import java.util.List;
 
-public interface ServiceWeb {
+public interface UserDao {
 
     List<User> getUsers();
 
@@ -13,5 +13,7 @@ public interface ServiceWeb {
     void addUser(User user);
 
     void editUser(User user);
+
+
     User getUserById(long id);
 }

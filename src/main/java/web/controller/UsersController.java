@@ -5,14 +5,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import web.model.User;
-import web.service.ServiceWeb;
+import web.service.UserService;
 
 @Controller
 public class UsersController {
 
-    private final ServiceWeb service;
+    private final UserService service;
     @Autowired
-    public UsersController(ServiceWeb service) {
+    public UsersController(UserService service) {
         this.service = service;
     }
 
